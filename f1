@@ -1,9 +1,13 @@
-file1 in cherry directory
+#file1 in cherry directory
+#this is a pipeline script
 pipeline {
 agent any
 	stages{
-	stage()[D'clone'){
-	--------------------
+	stage('clone'){
+		echo 'this is sample pipeline script'
 	}
 	}
-#this is a pipeline script
+}
+#git
+#maven
+
