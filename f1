@@ -1,0 +1,8 @@
+file1 in cherry directory
+pipeline {
+agent any
+	stages{
+	stage()[D'clone'){
+	--------------------
+	}
+	}
